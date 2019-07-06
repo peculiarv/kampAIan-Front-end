@@ -2,9 +2,14 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
 
+<link rel="icon" href="imgs/logo/logored.png" sizes="64x64" type="image/png">
+
+<style>
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f70303;
+	}
 
 /* Set a style for all buttons */
 button {
@@ -68,14 +73,13 @@ span.psw {
 
 <h2>Hello World</h2>
 
-  
+  <img src="imgs/logo/logored.png" width="150" height="150">
 
 
     <div class="container">
      
 
    
-    
        <button type="submit">Create Account</button>
 	   <h2 align="center">or</h2>
       <button type="submit">Login</button>
