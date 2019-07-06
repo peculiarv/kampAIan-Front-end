@@ -1,0 +1,40 @@
+img {
+  max-width: 200px;
+}
+
+input[type=file] {
+  padding: 5px;
+  width: 200px;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+#img-upload {
+  width: 100%;
+}
+
+.pic-container{
+  border-radius: .2rem;
+  border: 1px solid #244ED8;
+  height: 100%;
+  width: 100%;
+}

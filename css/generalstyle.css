@@ -1,0 +1,158 @@
+/*@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+body {
+   font-family: 'Quicksand', sans-serif;
+}*/
+
+.navbar {
+  padding: 5px 5px;
+  margin-bottom: 0px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  background: #FFFEFB;
+}
+
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.top-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.top-row> div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+
+.top-row>div:last-child {
+  margin: 0;
+}
+
+span {
+    color: #244ED8;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    color: #244ED8;
+    margin: 0px 0px 50px 0px;
+}
+
+
+label .req {
+  margin: 2px;
+  color: #244ED8;
+}
+
+body.form-control:focus {
+  border-color: #244ED8;
+  background-color: #ffffff;
+  color: #244ED8;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0) inset, 0px 0px 0px rgba(36, 78, 216, 100);
+}
+
+body.form-control {
+  color: #244ED8;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid #244ED8;
+  border-radius: .5rem;
+}
+.field-wrap {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+
+.btnfull {
+  width: 100%;
+}
+
+
+.right {
+
+  text-align: right;
+  color: #244ED8;
+}
+
+.left {
+
+  text-align: left;
+  color: #244ED8;
+}
+
+
+/* The Close Button (x) */
+.close {
+    right: 5px;
+    font-size: 30px;
+    font-weight:lighter;
+}
+.close:hover,.close:focus {
+    color: #d8244e ;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* The alert message box */
+
+
+.alert {
+    text-align: center;
+    background: rgba(216, 174, 36, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+
+.alink{
+  color: #fcecef ;
+
+}
+
+.alink:focus{
+  color: #f1a8b9 ;
+  font-weight: bold;
+
+}
+
+
+btn-primary{
+  background-color:  #244ED8;
+
+
+}
