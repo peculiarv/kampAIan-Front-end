@@ -129,7 +129,12 @@ span.psw {
   {
     background: rgba(0, 0, 0, 0.20);
   }
-  
+.fw {
+
+width: 100%;
+color: white;
+
+}  
   
 </style>
 
@@ -160,7 +165,7 @@ span.psw {
 				      <div class="item active">
 				       <img src="img/store1.jpg" alt="store1" width="460" height="345">
 				        <div class="carousel-caption">
-				          <h3>A PLAC</h3>
+				          <h3>Safe Place 1</h3>
 				          
 				        </div>
 				      </div>
@@ -168,7 +173,7 @@ span.psw {
 				      <div class="item">
 				        <img src="img/store2.jpg" alt="store2" width="460" height="345">
 				        <div class="carousel-caption">
-				           <h3>store2</h3>
+				           <h3>Safe Place 2</h3>
 				          
 				        </div>
 				      </div>
@@ -176,7 +181,7 @@ span.psw {
 				      <div class="item">
 				        <img src="img/store3.jpg" alt="store3" width="460" height="345">
 				        <div class="carousel-caption">
-				           <h3>store3</h3>
+				           <h3>Safe Place 3</h3>
 				         
 				        </div>
 				      </div>
@@ -195,7 +200,8 @@ span.psw {
 				  </div>
 
 
-<button type="submit" align="center" class="btn btnred">Upload an Image</button>
+<input type='file'  class="btn btnred fw" name='user_image'  id="user_image" onchange="readURL(this);"/>
+
 <button type="submit" align="center" class="btn btnred">Create a Sketch</button>
  
 
